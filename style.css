@@ -1,0 +1,40 @@
+body {
+    overflow: hidden;
+}
+
+.information-block {
+    height: calc(100vh - 66px);
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.navbar img {
+    max-height: 50px;
+}
+
+.bg-grey {
+    background: #f7f6f6;
+}
+
+.form-control {
+    background: #f7f6f6 !important;
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.form-control:focus {
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+}
+
+p::first-letter {
+    font-size: 500%;
+    color: brown;
+    padding-right: 10px;
+}
+
+.bg-light-pink {
+    background: #f1d4d6;
+    margin-top: -100px;
+}
